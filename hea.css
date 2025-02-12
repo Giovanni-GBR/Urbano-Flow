@@ -1,0 +1,93 @@
+@font-face {
+  font-family: 'minha1';
+  src: url(/Assenta/fonts/ClashDisplay-Variable.ttf);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'minha1';
+}
+body {
+  background: black;
+}
+.cabecalho{
+  
+}
+.nav-head{
+  width: 100vw;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+}
+.nav-head .img-head{
+  margin-right: 10px;
+  height: 40px;
+  width: 60px;
+}
+.nav-head ul{
+  display: flex;
+  list-style: none;
+}
+.nav-head li{
+  
+}
+.nav-head li a{
+  text-decoration: none;
+  color: white;
+  font-size: 11pt;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.nav-head select{
+  font-family: 'minha1';
+  color: #ffffff;
+  border: none;
+  background: none;
+}
+.nav-head .nav-loja a{
+  text-decoration: none;
+  margin-left: 5px;
+  font-size: 10pt;
+  color: #ffffff;
+}
+.nav-head .navegacao{
+  display: flex;
+  margin-left: auto;
+}
+.nav-head .navegacao .nav-pesq input{
+  font-family: 'minha1';
+  color: #ffffff;
+  padding: 10px;
+  border: none;
+  background: none;
+}
+.nav-head .navegacao .nav-pesq{
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  padding: 0px;
+  border: 1px solid #ffffff;
+}
+
+.fa-solid {
+  margin-left: 8px;
+  color: white;
+}
+.nav-head .navegacao .perf{
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+
+
+@media screen and (max-width: 700px){
+  .nav-head{
+    flex-direction: column;
+    margin-left: 0;
+  }
+  .nav-head .navegacao{
+    margin-left: 0;
+    
+  }
+}
