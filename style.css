@@ -1,0 +1,159 @@
+@font-face {
+  font-family: 'minha1';
+  src: url(/Assenta/fonts/ClashDisplay-Variable.ttf);
+}
+
+.body{
+  color: white;
+  font-family: 'minha1';
+}
+
+
+.conteiner-principal{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sec-principais{
+  width: 80%;
+  margin-bottom: 20px;
+}
+.secao-principal{
+  display: flex;
+  justify-content: center;
+}
+
+.secao-principal .head-img-sec button{
+  font-family: 'minha1';
+  padding: 0.5em 1.5em;
+  border: none;
+}
+.secao-principal .head-img-sec img{
+  width: 100%;
+}
+
+.secao-ofertas .head-ofertas{
+  display: flex;
+  align-items: center;
+  background: #f6a316;
+  color: white;
+}
+.secao-ofertas .head-ofertas .oferta-day{
+  margin-left: 5px;
+  gap: 5px;
+  padding: 5px;
+}
+.secao-ofertas .head-ofertas .oferta-day{
+  margin-right: 10px;
+}
+.secao-ofertas .head-ofertas .oferta-end{
+  margin-left: auto;
+}
+.secao-ofertas .head-ofertas .icons-oferta{
+  display: flex;
+}
+.head-ofertas .time-oferta{
+  margin-right: 10px;
+}
+.head-ofertas .time-oferta span{
+  background: #ffffff;
+  color: #000000;
+  border-radius: 3px;
+  margin-left: 3px;
+}
+
+.container-ofertas{
+  display: flex;
+  margin-top: 2rem;
+  overflow-y: auto;
+  gap: 15px;
+}
+.container-ofertas .content-ofertas{
+  display: flex;
+}
+.container-ofertas img{
+  height: 13rem;
+}
+
+.skate{
+  color: white;
+  margin-top: 3rem;
+}
+.skate .skate-hea{
+  height: 2.5rem;
+  background: #f6a316;
+  margin-bottom: 1rem;
+}
+.skate .skate-hea h2{
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
+}
+.skate .box-skate{
+  display: flex;
+  
+}
+
+.skate .img-skate img{
+  width: 23rem;
+  height: 23rem;
+}
+
+.skate .content-skate{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #13131a;
+  width: 100%;
+  font-size: 2rem;
+  height: 23rem;
+}
+.skate .content-skate ul{
+  margin-left: 2rem;
+}
+.skate .content-skate .shape-skate{
+  font-family: 'minha1';
+  color: white;
+  background: none;
+  border: none;
+}
+.skate .content-skate h3, .shape-skate{
+  font-weight: 400;
+  font-size: 3rem;
+}
+
+
+
+@media screen and (max-width: 700px){
+  .head-ofertas .oferta-day{
+    margin-right: 0;
+  }
+  .head-ofertas .oferta-day p{
+    display: none;
+  }
+  .head-ofertas .oferta-end{
+    margin-left: 0px;
+    
+  }
+  .head-ofertas .time-oferta{
+    margin-right: auto;
+  }
+  
+  
+  .skate .box-skate{
+    display: flex;
+    flex-direction: column;
+  }
+  .skate .img-skate img{
+    width: 100%;
+    height: 19rem;
+  }
+  .skate .content-skate{
+    height: 20rem;
+  }
+  .skate .content-skate h3, .shape-skate{
+  font-weight: 400;
+  font-size: 3rem;
+  }
+}
